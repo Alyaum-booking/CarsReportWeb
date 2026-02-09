@@ -1,0 +1,22 @@
+@media (max-width:1024px){header{gap:600px;}}
+header{background-color: rgb(25, 25, 231); justify-content: center; width:100%; padding:20px; display:flex; align-items: center;}
+header a{color:azure; font-size: 200%;  text-decoration: none; margin:0 30px; }
+table{width:80%; margin: 30px auto; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; text-align: center;}
+th, td{border: 1px solid #333; padding:12px;}
+td:hover{background-color: bisque;}
+img{display: block; border-radius: 90px; border: 3px solid blue; margin: 10px auto;}
+footer{position: fixed; bottom: 0; left: 0; width: 100%; text-align: center; background-color: blue; color: azure;}
+li{display: inline; margin: 0 10px;}
+.log{display:flex; flex-direction: column; text-align:center;justify-content: center; align-items: center;
+    font-family: 'Times New Roman', Times, serif; font-size: 200%;}
+input ,button{ margin: 10px; padding:10px 20px;}
+.arc{margin: 0; min-height: 100vh;
+    background: linear-gradient(rgb(181, 181, 248),white);
+    background-size:80px 80px; background-repeat: repeat;
+    display: flex; justify-content: center; align-items: center;}
+.che{background-color: white; width:85%;
+    max-width: 1300px; padding:30px;border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2); min-height: 90vh;
+    margin: 40px 0; overflow: hidden;
+}
+.email{text-align: center; font-weight: bold; justify-content: center; margin: 10px auto;}
